@@ -1,6 +1,7 @@
 '''
 Programa que usa las clases declaradas en el archivo clases.py
 Fecha: 02/09/24
+modificado
 '''
 import clase as cl
 # Crear objetos de clase persona
