@@ -17,6 +17,11 @@ class Persona:
     def caminar (self, *args):
         if len(args) > 0:
             self.peso -= args[0] / 8.0
+        elif len(args) ==2:
+            if(args[1] == "campo"):
+               self.peso -= args[0] / 6.0
+            else:
+               self.peso -= args[0] / 8.0
         else:
             self.peso -= 0.5
     def comer (self):

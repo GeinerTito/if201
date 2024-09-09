@@ -38,5 +38,14 @@ atl1.estatura = 1.65
 atl2.estatura = 1.60
 print(atl1)
 print(atl2)
-print('Atleta: {}, IMC: {: .2f}'.format(atl1.nombre, atl1.calcular_imc()))
-print('Atleta: {}, IMC: {: .2f}'.format(atl2.nombre, atl2.calcular_imc()))
+print('Atleta: {}, IMC: {: .2f}'.format(atl1.nombre, 
+                                        atl1.calcular_imc()))
+print('Atleta: {}, IMC: {: .2f}'.format(atl2.nombre, 
+                                        atl2.calcular_imc()))
+perX = cl.Persona("Andrea", 50)
+perX.caminar()    # metodo caminar sin argumentos 
+print(perX)
+perX.caminar(24)  # metodo caminar con 1 argumento
+print(perX)
+perX.caminar(12,"campo")
+print(perX)
